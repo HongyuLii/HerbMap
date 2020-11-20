@@ -1,0 +1,42 @@
+.title {
+  background-color: #4B9CD3;
+  opacity: 0.5;
+}
+
+.titleContent {
+  margin-left: 2%;
+}
+.pin1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  border-radius: 50% 50% 50% 0;
+  border: 4px solid;
+  width: 15px;
+  height: 15px;
+  transform: rotate(-45deg);
+}
+
+.pin1::after {
+  position: absolute;
+  content: '';
+  width: 7px;
+  height: 10px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  margin-left: -5px;
+  margin-top: -5px;
+  background-color: 'red';
+}
+
+.markers {
+  background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
